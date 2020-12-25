@@ -76,7 +76,7 @@
 
 #home::before{
     content:"";
-    background:url(file:///C:/Users/Mudit%20Agarwal/OneDrive/Documents/HTML/Restaurant%20Website/bg1.jpg) no-repeat center center/cover;
+    background:url(bg1.jpg) no-repeat center center/cover;
     position:absolute;
     top:0;
     left:0;
@@ -145,7 +145,7 @@
 #clients-section::before{
     content:"";
     position:absolute;
-    background:url(file:///C:/Users/Mudit%20Agarwal/OneDrive/Documents/HTML/Restaurant%20Website/restaurant.jpg);
+    background:url(restaurant.jpg);
     height:50%;
     width:100%;
     z-index:-1;
@@ -180,7 +180,7 @@
 #contact::before{
     content:"";
     position:absolute;
-    background:url(file:///C:/Users/Mudit%20Agarwal/OneDrive/Documents/HTML/Restaurant%20Website/sticky-notes-2378911_1280.jpg) no-repeat center center/cover;
+    background:url(sticky-notes-2378911_1280.jpg) no-repeat center center/cover;
     height:100%;
     width: 100%;
     z-index:-1;
