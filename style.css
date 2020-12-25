@@ -1,0 +1,249 @@
+/* Body reset */
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Bree Serif', serif;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height:59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display:flex;
+    align-items: center;
+    position:relative;
+    top:0;
+}
+
+#navbar::before{
+    content:"";
+    background:black;
+    position:absolute;
+    top:0;
+    left:0;
+    height:85% ;
+    width:100%;
+    z-index:-1;
+    opacity:.4;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin:7px 47px;;
+}
+
+#logo img{
+    height:50px;
+    margin: 3px 21px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul{
+    display:flex;
+}
+
+
+#navbar ul li{
+    list-style-type: none;
+    font-size:1.3rem;
+}
+
+#navbar ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 14px 32px;
+    display:block;
+    border-radius:30px;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background: white;
+}
+
+/* Home Section */
+#home{
+    display:flex;
+    flex-direction:column;
+    height:30rem;
+    padding:3px 40px;
+    justify-content: center;
+    align-items: center; 
+}
+
+#home::before{
+    content:"";
+    background:url(bg1.jpg) no-repeat center center/cover;
+    position:absolute;
+    top:0;
+    left:0;
+    height:90%;
+    width:100%;
+    z-index:-1;
+    opacity:.8;
+}
+
+#home h1{
+    color:white;
+    text-align:center;
+}
+
+#home h2{
+    color:white;
+    text-align:center
+}
+
+#home p{
+    color:white;
+    font-size:1rem;
+    text-align:center;
+}
+
+/* Serices Section */
+#services-container{
+    margin:20px 0px 0px 0px;
+}
+
+#services{
+    margin:34px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#services .box{
+    border:2px solid brown;
+    margin:3px 20px;
+    padding:34px;
+    border-radius:23px;
+    background-color:rgb(255, 228, 228);
+}
+
+#services .box:hover{
+    color:white;
+    box-shadow:3px 3px 10px 10px rgb(167, 164, 164);
+    background-color: rgb(216, 55, 55);
+}
+
+#services .box img{
+    height:100px;
+    display:block;
+    margin:20px auto;
+}
+
+#services{}
+#services{}
+#services{}
+
+#clients-section{
+    height:400px;
+    margin:100px 0px 0px 0px; 
+}
+
+#clients-section::before{
+    content:"";
+    position:absolute;
+    background:url(restaurant.jpg);
+    height:50%;
+    width:100%;
+    z-index:-1;
+    opacity:.4;
+}
+
+#clients-section h1{
+    color:rgb(255, 255, 255);
+}
+
+#clients{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clients img{
+    height:100px;
+    margin:20px;
+}
+
+#clients i{
+    font-size:100px;
+    color:rgb(0, 0, 0);
+}
+/* Contact-Section */
+#contact{
+    position:relative;
+    margin:0px;
+}
+
+#contact::before{
+    content:"";
+    position:absolute;
+    background:url(sticky-notes-2378911_1280.jpg) no-repeat center center/cover;
+    height:100%;
+    width: 100%;
+    z-index:-1;
+    opacity:.6;
+}
+
+#contact-box{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:20px;
+}
+#contact .form-group{
+    text-align: center;
+}
+#contact-box form{
+    width:40%;
+}
+#contact label{
+    font-size: 1.5rem;
+    
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding:0.5rem;
+    border-radius:15px;
+    font-size: 1rem;
+    border:2px solid black;
+    opacity:.8;
+    z-index:-1;
+}
+
+footer{
+    background:black;
+    color:white;
+    padding:10px 25px;
+}
+/* Utility Class */
+.primary{
+    font-size: 3.5rem;
+    padding:6px;
+}
+
+.secondary{
+    font-size: 2.5rem;
+    padding:6px;
+}
+
+.btn{
+    padding:5px 10px;
+    color:white;
+    background:brown;
+    margin:40px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:1.5rem
+}
+.btn:hover{
+    color:brown;
+    background:white;
+}
+
+.center{
+    text-align:center;
+}
