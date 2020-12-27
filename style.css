@@ -25,7 +25,7 @@
     position:absolute;
     top:0;
     left:0;
-    height:85% ;
+    height:100% ;
     width:100%;
     z-index:-1;
     opacity:.4;
@@ -63,6 +63,8 @@
 #navbar ul li a:hover{
     color:black;
     background: white;
+    transition:.5s;
+    transition-timing-function: ease-in-out;
 }
 
 /* Home Section */
