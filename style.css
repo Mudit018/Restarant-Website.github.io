@@ -211,7 +211,22 @@
     font-size: 1rem;
     border:2px solid black;
     opacity:.8;
-    z-index:-1;
+    
+}
+
+#contact-box #submit{
+    display:box;
+    margin:10px;
+    opacity:1;
+    width:100px;
+    background-color: brown;
+    color:white;
+    border-radius: 10px;
+}
+
+#contact-box #submit:hover{
+    background-color: white;
+    color:brown;
 }
 
 footer{
