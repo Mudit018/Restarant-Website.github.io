@@ -215,8 +215,8 @@
 }
 
 #contact-box #submit{
-    display:box;
-    margin:10px;
+    display:block;
+    margin:10px auto;
     opacity:1;
     width:100px;
     background-color: brown;
