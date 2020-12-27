@@ -7,6 +7,10 @@
     height:100%;
 }
 
+#navbar::before{
+    height:108%;     
+}
+
 #navbar ul li a{
     font-size: 1rem;
     padding:6px 5px;
