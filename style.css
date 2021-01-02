@@ -6,6 +6,9 @@
     outline:none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* CSS Variables */
 :root{
     --navbar-height:59px;
@@ -15,7 +18,7 @@
 #navbar{
     display:flex;
     align-items: center;
-    position:relative;
+    position:sticky;
     top:0;
 }
 
